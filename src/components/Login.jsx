@@ -109,7 +109,7 @@ const Login = () => {
             <input type='password' ref = {password} placeholder='Password' className="p-4 my-4 w-full bg-gray-700 opacity-80"/>
             <p className='text-red-600'>{errorMessage}</p>
             <button onClick={handleButtonClick} className="p-2 my-6 bg-red-600 w-full rounded-lg">{isSignInForm ?"Sign In":"Sign Up"} </button>
-            <p className='py-4 hover:cursor-pointer' onClick={toggleSignInForm}>{isSignInForm ? "New to Netflix? Sign Up Now" : "Already registered? Sign In Now"}</p>
+            <p className='py-4 hover:cursor-pointer' onClick={toggleSignInForm}>{isSignInForm ? "New to Bro-llowood? Sign Up Now" : "Already registered? Sign In Now"}</p>
         </form>
 
         </div>
